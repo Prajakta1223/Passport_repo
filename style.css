@@ -12,9 +12,10 @@
 }
 .re-issue-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 11px;
   }
+ 
   .existing-personal-reason{
     display: grid;
     grid-template-columns: 1fr 1fr;
