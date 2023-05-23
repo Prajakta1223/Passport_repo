@@ -1,0 +1,138 @@
+.body{
+  background-color: rgb(239, 217, 172);
+}
+.heading{
+    color: rgb(64, 23, 23);
+    text-align: center;
+}
+.file_number {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.re-issue-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .existing-personal-reason{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .Marital-Status{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+  }
+  .for-wrap-pan-voter-id{
+    display: flex;
+  }
+  .voter-id{
+    margin-left:20px;
+  }
+  .employment-type{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap: 10px;
+  }
+  .edu-qulification{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+  }
+  .nationlity{
+    margin-left: 25px;
+  }
+  .address-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .emergency-contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .previous-details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .extra-details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+ .details1{
+  display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+ }
+ .margin-20{
+  margin-top: 20px;
+ }
+ .details2{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+ }
+ .module1{
+  width: 700px;
+   position:relative;
+   top:10px;
+   left:196px;
+   
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(241, 238, 238);
+   border-radius: 5px;
+}
+.label-head{
+ color:brown;
+ font-weight: bold;
+} 
+.legend1{
+  font-weight: bold;
+  color: blue;
+}
+@media only screen and (max-width: 600px) {
+  .module1 {
+    width: 100%; /* Adjust the width as needed for mobile */
+    left: 0;
+    top: 0;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  
+  .module1 .file_number {
+    margin-bottom: 20px; /* Adjust the spacing as needed for mobile */
+  }
+  
+  .module1 .label-head,
+  .module1 .legend1 {
+    font-size: 16px; /* Adjust the font size as needed for mobile */
+  }
+  
+  .module1 input[type="text"],
+  .module1 input[type="radio"],
+  .module1 input[type="checkbox"] {
+    width: 100%; /* Adjust the width as needed for mobile */
+  }
+}
+.btn{
+ 
+    
+    padding: 10px 20px;
+    background-color: #7ab9f0;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+  
+}
+.text{
+  padding:10px;
+  text-decoration: none;
+}

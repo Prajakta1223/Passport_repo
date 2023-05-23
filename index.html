@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Passport Application</title>
+</head>
+
+<body>
+  <form>
+    <div class="main">
+      <!--module 1-->
+      <div class="module1">
+      
+        <div class="file_number ">
+          <label for="fileNumber" class="label-head">File Number:</label>
+          <input type="text" id="fileNumber" name="fileNumber">
+        </div>
+
+        <div>
+          <h2 class="heading">
+            GOVERNMENT OF INDIA, MINISTRY OF EXTERNAL AFFAIRS<br>
+            PASSPORT APPLICATION FORM
+          </h2>
+          <h4>
+            Please read the Passport Instruction Booklet carefully before filling the form. Fill this form in CAPITAL
+            LETTERS
+            using blue/ black ink ball point pen only. Furnishing of incorrect information/ suppression of information
+            would
+            lead to rejection of the application and would attract penal provisions as prescribed under the Passports
+            Act,
+            1967. Please produce your original documents at the time of submission of the form.
+          </h4>
+        </div>
+
+        <fieldset>
+          <legend class="legend1">Service Required</legend>
+          <label class="label-head">Applying for:</label>
+          <label for="fresh-passport label-head">
+            <input type="radio" id="fresh-passport" name="application-type" value="fresh">
+            Fresh Passport
+          </label>
+
+          <label for="reissue-passport label-head">
+            <input type="radio" id="reissue-passport" name="application-type" value="reissue">
+            Re-issue of Passport
+          </label><br><br>
+
+
+          <div class="re-issue-container">
+            <label class="label-head">If re-issue, specify reason(s):</label>
+            <div>
+              <input type="checkbox" id="expired-within-3-years" name="reason" value="expired-within-3-years">
+              <label for="expired-within-3-years">Validity Expired within 3 years/ Due to Expire</label>
+            </div>
+            <div>
+              <input type="checkbox" id="exhaustion-of-pages" name="reason" value="exhaustion-of-pages">
+              <label for="exhaustion-of-pages">Exhaustion of Pages</label>
+            </div>
+            <div>
+              <input type="checkbox" id="expired-more-than-3-years-ago" name="reason"
+                value="expired-more-than-3-years-ago">
+              <label for="expired-more-than-3-years-ago">Validity Expired more than 3 years ago</label>
+            </div>
+            <div>
+              <input type="checkbox" id="lost-passport" name="reason" value="lost-passport">
+              <label for="lost-passport">Lost Passport</label>
+            </div>
+            <div>
+              <input type="checkbox" id="change-in-personal-particulars" name="reason"
+                value="change-in-personal-particulars">
+              <label for="change-in-personal-particulars">Change in Existing Personal Particulars</label>
+            </div>
+            <div>
+              <input type="checkbox" id="damaged-passport" name="reason" value="damaged-passport">
+              <label for="damaged-passport">Damaged Passport</label>
+            </div>
+          </div><br>
+
+
+          <div class="existing-personal-reason">
+            <label class="label-head">If change in existing personal particulars, specify reason(s):</label>
+            <div>
+              <input type="checkbox" id="appearance" name="appearance">
+              <label for="appearance">Appearance</label>
+            </div>
+            <div>
+              <input type="checkbox" id="signature" name="signature">
+              <label for="signature">Signature</label>
+            </div>
+            <div>
+              <input type="checkbox" id="given-name" name="given-name">
+              <label for="given-name">Given Name</label>
+            </div>
+            <div>
+              <input type="checkbox" id="surname" name="surname">
+              <label for="surname">Surname</label>
+            </div>
+            <div>
+              <input type="checkbox" id="date-of-birth" name="date-of-birth">
+              <label for="date-of-birth">Date of Birth</label>
+            </div>
+            <div>
+              <input type="checkbox" id="spouse-name" name="spouse-name">
+              <label for="spouse-name">Spouse Name</label>
+            </div>
+            <div>
+              <input type="checkbox" id="address" name="address">
+              <label for="address">Address</label>
+            </div>
+            <div>
+              <input type="checkbox" id="delete-ecr" name="delete-ecr">
+              <label for="delete-ecr">Delete ECR</label>
+            </div>
+            <div>
+              <input type="checkbox" id="others" name="others">
+              <label for="others">Others</label>
+            </div>
+            <div>
+              <input type="text" id="others-text" name="others-text" placeholder="Please specify">
+            </div>
+          </div><br>
+
+          <div class="types-appliction">
+            <label class="label-head">Types of Application:</label>
+            <label for="normal-passport">
+              <input type="radio" id="normal-passport" name="application-type" value="normal">
+              Normal
+            </label>
+
+            <label for="tatkaal-passport">
+              <input type="radio" id="tatkaal-passport" name="application-type" value="tatkaal">
+              Tatkaal
+            </label>
+          </div><br>
+
+          <div class="types-booklet">
+            <label class="label-head">Type of Passport Booklet:</label>
+            <label for="pages-36">
+              <input type="radio" id="pages-36" name="passport-pages" value="36">
+              36 Pages
+            </label>
+
+            <label for="pages-60">
+              <input type="radio" id="pages-60" name="passport-pages" value="60">
+              60 Pages
+            </label>
+          </div><br>
+
+          <div class="validity-required">
+            <label class="label-head">Validity Required (For minors between 15 and 18 years):</label>
+            <label for="ten-years">
+              <input type="radio" id="ten-years" name="passport-validity" value="10-years">
+              10 Years
+            </label>
+
+            <label for="up-to-age-18">
+              <input type="radio" id="up-to-age-18" name="passport-validity" value="up-to-age-18">
+              Up to age 18
+            </label><br><br>
+          </div>
+        </fieldset>
+      </div>
+
+    
+
+    <a href="second.html" class="btn">Next</a><br><br>
+     
+
+
+
+      <div class="module3">
+        <fieldset>
+          <legend> Family Details</legend>
+
+          <div class="father-name">
+            <label for="father-given-name">Father's Given Name (Given Name means First name followed by Middle name (If
+              any)) (Initials not allowed) :</label>
+            <input type="text" id="father-given-name" name="father-given-name"><br>
+            <label for="Fsurname">Surname:</label>
+            <input type="text" id="Fsurname" name="Fsurname">
+          </div><br>
+
+          <div class="mother-name">
+            <label for="mother-given-name">Mother's Given Name (Given Name means First name followed by Middle name (If
+              any)) (Initials not allowed): </label>
+            <input type="text" id="mother-given-name" name="mother-given-name"><br>
+            <label for="Msurname">Surname:</label>
+            <input type="text" id="Msurname" name="Msurname">
+          </div><br>
+
+          <div class="legal_gurdian-name">
+            <label for="gurdian-name"> Legal Guardian's Given Name (If applicable) (Initials not allowed): </label>
+            <input type="text" id="gurdian-name" name="gurdian-name"><br>
+            <label for="legal_gurdian-name">Surname:</label>
+            <input type="text" id="legal_gurdian-name" name="legal_gurdian-name">
+          </div><br>
+
+          <div class="spouse-name">
+            <label for="spouse-name"> Spouse's Given Name (Given Name means First name followed by Middle name (If any))
+              (Initials not allowed): </label>
+            <input type="text" id="spouse-name" name="spouse-name"><br>
+            <label for="spouse-surname">Surname:</label>
+            <input type="text" id="spouse-surname" name="spouse-surname">
+          </div><br>
+
+          <div class="minor-applicant">
+            If applicant is minor, provide following details :<br>
+            Parent's Passport Details (If passport has been applied for but not received, give File Number)<br><br>
+            <label for="father-passport-number">Father/ Legal Guardian's File/ Passport Number:</label>
+            <input type="text" id="father-passport-number" name="father-passport-number">
+
+            <label for="father-nationlity" class="nationlity">Father/ Legal Guardian's Nationality, if not
+              Indian:</label>
+            <input type="text" id="father-nationlity" name="father-nationlity"><br><br>
+
+            <label for="mother-passport-number">Mother/ Legal Guardian's File/ Passport Number:</label>
+            <input type="text" id="mother-passport-number" name="mother-passport-number">
+
+            <label for="mother-nationlity" class="nationlity">Mother/ Legal Guardian's Nationality, if not
+              Indian:</label>
+            <input type="text" id="mother-nationlity" name="father-nationlity">
+
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="module4">
+        <fieldset>
+          <legend>Present Residential Address Details (Where applicant presently resides)</legend>
+          <div class="address-wrap">
+            <label for="house-street">House No. and Street Name:</label>
+            <textarea id="house-street" name="house-street"></textarea>
+
+            <label for="village-town-city">Village or Town or City:</label>
+            <input type="text" id="village-town-city" name="village-town-city">
+
+            <label for="district">District:</label>
+            <input type="text" id="district" name="district">
+
+            <label for="police-station">Police Station:</label>
+            <input type="text" id="police-station" name="police-station">
+
+            <label for="state-ut">State/UT:</label>
+            <input type="text" id="state-ut" name="state-ut">
+
+            <label for="pin">PIN:</label>
+            <input type="text" id="pin" name="pin">
+
+            <label for="mobile-number">Mobile Number:</label>
+            <input type="text" id="mobile-number" name="mobile-number">
+
+            <label for="telephone-number">Telephone Number:</label>
+            <input type="text" id="telephone-number" name="telephone-number">
+
+            <label for="email">E-mail Id:</label>
+            <input type="email" id="email" name="email"><br>
+          </div>
+
+          <div class="same-address">
+            Is permanent address same as present address?<br>
+            o If no, provide details in Column 4 of Supplementary Form:
+            <label for="same-addr-yes">
+              <input type="radio" id="same-addr-yes" name="same-addr" value="yes">Yes</label>
+            <label for="same-addr-no">
+              <input type="radio" id="same-addr-no" name="same-addr" value="no">No</label>
+          </div>
+
+        </fieldset>
+      </div>
+
+      <div class="module5">
+        <fieldset>
+          <legend>Emergency Contact Details </legend>
+          <label for="Emergency-contact">Name and Address (Mention address only if different from present residential
+            address):</label>
+          <textarea id="Emergency-contact" name="Emergency-contact"></textarea><br><br>
+
+          <div class="emergency-contact">
+            <div>
+              <label for="emegency-mobile-number">Mobile Number:</label>
+              <input type="text" id="emegency-mobile-number" name="emegency-mobile-number">
+            </div>
+
+            <div>
+              <label for="emegency-tele-number">Telephone Number:</label>
+              <input type="text" id="emegency-tele-number" name="emegency-tele-number">
+            </div>
+
+            <div>
+              <label for="emegency-email-number">Email ID:</label>
+              <input type="text" id="emegency-email-number" name="emegency-email-number">
+            </div>
+          </div>
+
+        </fieldset>
+      </div>
+
+      <div class="module6">
+        <fieldset>
+          <legend>Previous Passport/ Application Detail</legend>
+          Details of latest held/ existing/ lost/ damaged Ordinary Passport/ Identity Certificate<br><br>
+          <div class="previous-details">
+            <label for="passport-number">Passport/Identity Certificate Number:</label>
+            <input type="text" id="passport-number" name="passport-number">
+
+            <label for="date-of-issue">Date of Issue <br>(DD-MM-YYYY):</label>
+            <input type="text" id="date-of-issue" name="date-of-issue" placeholder="DD-MM-YYYY">
+
+            <label for="date-of-expiry">Date of Expiry<br> (DD-MM-YYYY):</label>
+            <input type="text" id="date-of-expiry" name="date-of-expiry" placeholder="DD-MM-YYYY">
+
+          </div><br>
+
+          <label for="place-of-issue">Place of Issue :</label>
+          <input type="text" id="place-of-issue" name="place-of-issue">
+          If you have held/ hold any diplomatic/ official passport, provide details in Column 6 of Supplementary
+          Form.<br><br>
+
+          <div class="apply-but-not-issue">
+            Have you ever applied for passport, but not
+            issued?
+            <label for="apply-not-issue-yes">
+              <input type="radio" id="apply-not-issue-yes" name="apply-not-issue" value="yes">Yes</label>
+            <label for="apply-not-issue-no">
+              <input type="radio" id="apply-not-issue-no" name="apply-not-issue" value="no">No</label>
+
+            (If yes, provide the following
+            details)<br><br>
+            <div class="extra-details">
+              <label for="file-number">File Number:</label>
+              <input type="text" id="file-number" name="file-number">
+
+              <label for="month-year-applying">Month and Year of applying:</label>
+              <input type="text" id="month-year-applying" name="month-year-applying">
+
+              <label for="passport-office">Name of passport office where applied:</label>
+              <input type="text" id="passport-office" name="passport-office">
+            </div>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="module7">
+        <fieldset>
+          <legend>Other Details</legend>
+          <b>Provide the following details if there are any criminal proceedings pending
+            against the applicant</b><br><br>
+          <div class="details1">
+            Are any proceedings in respect of an offence alleged to have been committed by you pending before a criminal
+            court in India?<br>
+            If yes, fill Column 6.1 of Supplementary Form
+            <div class="margin-20">
+              <label for="proceedings-yes">
+                <input type="radio" id="proceedings-yes" name="proceedings" value="yes">Yes</label>
+              <label for="proceedings-no">
+                <input type="radio" id="proceedings-no" name="proceedings" value="no">No</label>
+            </div>
+
+            Has any warrant or summons for your appearance been issued & pending before a court under any law for the
+            time
+            being in force?<br>
+            If yes, fill Column 6.2 of Supplementary Form
+            <div class="margin-20">
+              <label for="warrant-yes">
+                <input type="radio" id="warrant-yes" name="warrant" value="yes">Yes</label>
+              <label for="warrant-no">
+                <input type="radio" id="warrant-no" name="warrant" value="no">No</label>
+            </div>
+
+            Has a warrant for your arrest been issued by a court under any law for the time being in force?<br>
+            If yes, fill Column 6.3 of Supplementary Form
+            <div class="margin-20">
+              <label for="arrest-yes">
+                <input type="radio" id="arrest-yes" name="arrest" value="yes">Yes</label>
+              <label for="arrest-no">
+                <input type="radio" id="arrest-no" name="arrest" value="no">No</label>
+            </div>
+
+            Has an order prohibiting your departure from India been made by any court?<br>
+            If yes, fill Column 6.4 of Supplementary Form
+            <div class="margin-20">
+              <label for="departure-yes">
+                <input type="radio" id="departure-yes" name="departure" value="yes">Yes</label>
+              <label for="departure-no">
+                <input type="radio" id="departure-no" name="departure" value="no">No</label>
+            </div>
+          </div><br>
+
+          <div class="detai2">
+            <b>Provide the following details if the applicant has been convicted by a court in
+              India.</b><br><br>
+            <div class="details2">
+              Have you, at any time during the period of five years immediately preceding the <br>
+              date of this application, been convicted by a court in India for any offence<br>
+              involving moral turpitude and sentenced in respect thereof to imprisonment for<br>
+              not less than two years?
+              If yes, fill Column 6.5 of Supplementary Form
+              <div class="margin-20">
+                <label for="departure-yes">
+                  <input type="radio" id="departure-yes" name="departure" value="yes">Yes</label>
+                <label for="departure-no">
+                  <input type="radio" id="departure-no" name="departure" value="no">No</label>
+              </div>
+            </div>
+          </div><br>
+
+
+          <div class="del3">
+            <div class="det3">
+              <b>Provide the following details if there are any criminal proceedings pending
+                against the applicant</b><br><br>
+              <div class="details2">
+                Have you ever been refused/denied passport?<br>
+                If yes, fill Column 6.6 of Supplementary For
+                <div class="margin-20">
+                  <label for="proceedings-pending-yes">
+                    <input type="radio" id="proceedings-pending-yes" name="proceedings-pending" value="yes">Yes</label>
+                  <label for="proceedings-pending-no">
+                    <input type="radio" id="proceedings-pending-yes" name="proceedings-pending" value="no">No</label>
+                </div>
+
+                Has your passport ever been impounded?<br>
+                If yes, fill Column 6.7 of Supplementary Form
+                <div class="margin-20">
+                  <label for="impounded-yes">
+                    <input type="radio" id="impounded-yes" name="impounded" value="yes">Yes</label>
+                  <label for="impounded-no">
+                    <input type="radio" id="impounded-no" name="impounded" value="no">No</label>
+                </div>
+
+                Has your passport ever been revoked?
+                If yes, fill Column 6.8 of Supplementary Form
+                <div class="margin-20">
+                  <label for="revoked-yes">
+                    <input type="radio" id="revoked-yes" name="revoked" value="yes">Yes</label>
+                  <label for="revoked-no">
+                    <input type="radio" id="revoked-no" name="revoked" value="no">No</label>
+                </div>
+
+
+
+
+
+
+              </div>
+            </div>
+
+        </fieldset>
+      </div>
+
+    </div>
+  </form>
+</body>
+
+</html>

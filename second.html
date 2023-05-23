@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+ 
+         display: inline-block;
+         padding: 10px 20px;
+         background-color: #6eb3f0;
+         color:black;
+         text-decoration: none;
+        
+  }
+    </style>
+</head>
+<body>
+    <div class="module2">
+        <fieldset>
+          <legend>Applicant Details</legend>
+
+          <div class="given-name">
+            <label for="given-name">Applicant's Given Name (Given Name means First name followed by Middle name (If
+              any))(Initials not allowed) :</label>
+            <input type="text" id="given-name" name="given-name" placeholder="Enter Given Name">
+          </div><br>
+
+          <div class="surname">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" placeholder="Enter Surname">
+          </div><br>
+
+          <div class="other-name">
+            Are you known by any other names (aliases)?<br>
+            If yes, provide details in Column 1 of Supplementary Form:
+            <label for="alias-yes">
+              <input type="radio" id="alias-yes" name="alias-answer" value="yes">Yes</label>
+            <label for="alias-no">
+              <input type="radio" id="alias-no" name="alias-answer" value="no">No</label>
+          </div><br>
+
+          <div class="change-name">
+            Have you ever changed your name?<br>
+            If yes, provide details in Column 2 of Supplementary Form:
+            <label for="change-yes">
+              <input type="radio" id="change-yes" name="change-answer" value="yes">Yes</label>
+            <label for="change-no">
+              <input type="radio" id="change-no" name="change-answer" value="no">No</label>
+          </div><br>
+
+
+          <div class="DOB">
+            <label for="date-of-birth"> Date of Birth (DD-MM-YYYY) :</label>
+            <input type="date" id="date-of-birth" name="date-of-birth">
+          </div><br>
+
+          <div class="place-birth">
+            <label for="place-of-birth">Place of Birth (Village or Town or City) :</label>
+            <input type="text" id="place-of-birth" name="place-of-birth" placeholder="Enter Place of Birth">
+          </div><br>
+
+          <div class="District">
+            <label for="district">District (If born in India) :</label>
+            <input type="text" id="district" name="district">
+          </div><br>
+
+          <div class="state">
+            <label for="state">State/ UT (If born in India):</label>
+            <input type="text" id="state" name="state">
+          </div><br>
+
+          <div class="country">
+            <label for="country">Region/Country (If born abroad) If born before 15/08/1947 in a place now in Pakistan or
+              Bangladesh, write "Undivided India" :</label>
+            <input type="text" id="country" name="country">
+          </div><br>
+
+          <div class="gender">
+            Gender :
+            <label for="male"><input type="radio" id="male" name="gender" value="male">Male</label>
+
+            <label for="female"><input type="radio" id="female" name="gender" value="female">Female</label>
+
+            <label for="transgender"><input type="radio" id="transgender" name="gender"
+                value="transgender">Transgender</label>
+          </div><br>
+
+          <div class="Marital-Status">
+            Marital Status:
+            <label for="single"><input type="radio" id="single" name="maritalStatus" value="single">Single</label>
+            <label for="married"><input type="radio" id="married" name="maritalStatus" value="married">Married</label>
+            <label for="divorced"><input type="radio" id="divorced" name="maritalStatus"
+                value="divorced">Divorced</label>
+            <label for="widow-widower"><input type="radio" id="widow-widower" name="maritalStatus"
+                value="widow-widower">Widow/Widower</label>
+            <label for="separated"><input type="radio" id="separated" name="maritalStatus"
+                value="separated">Separated</label>
+          </div><br>
+
+          <div class="citizenship">
+            Citizenship of India by :
+            <label for="birth"><input type="radio" id="birth" name="citizenship" value="birth">Birth </label>
+            <label for="descent"><input type="radio" id="descent" name="citizenship" value="descent">Descent</label>
+            <label for="registration"><input type="radio" id="registration" name="citizenship"
+                value="registration">Registration/Naturalization</label>
+          </div><br>
+
+          <div class="for-wrap-pan-voter-id">
+            <div class="pan">
+              <label for="pan"> PAN (If available):</label>
+              <input type="text" id="pan" name="pan">
+            </div>
+
+            <div class="voter-id">
+              <label for="voter-id"> Voter ID (If available):</label>
+              <input type="text" id="voter-id" name="voter-id">
+            </div><br>
+          </div><br>
+
+          <div class="employment-type">
+            Employment Type :
+            <label for="psu">
+              <input type="checkbox" id="psu" name="employment" value="psu">
+              PSU
+            </label>
+            <label for="government">
+              <input type="checkbox" id="government" name="employment" value="government">
+              Government
+            </label>
+            <label for="statutory-body">
+              <input type="checkbox" id="statutory-body" name="employment" value="statutory-body">
+              Statutory Body
+            </label>
+            <label for="retired-government-servant">
+              <input type="checkbox" id="retired-government-servant" name="employment"
+                value="retired-government-servant">
+              Retired Government Servant
+            </label>
+            <label for="self-employed">
+              <input type="checkbox" id="self-employed" name="employment" value="self-employed">
+              Self Employed
+            </label>
+            <label for="private">
+              <input type="checkbox" id="private" name="employment" value="private">
+              Private
+            </label>
+            <label for="homemaker">
+              <input type="checkbox" id="homemaker" name="employment" value="homemaker">
+              Homemaker
+            </label>
+            <label for="not-employed">
+              <input type="checkbox" id="not-employed" name="employment" value="not-employed">
+              Not Employed
+            </label>
+            <label for="retired-private-service">
+              <input type="checkbox" id="retired-private-service" name="employment" value="retired-private-service">
+              Retired-Private Service
+            </label>
+            <label for="student">
+              <input type="checkbox" id="student" name="employment" value="student">
+              Student
+            </label>
+            <label for="others">
+              <input type="checkbox" id="others" name="employment" value="others">
+              Others
+            </label>
+            <label for="owners-partners-directors">
+              <input type="checkbox" id="owners-partners-directors" name="employment" value="owners-partners-directors">
+              Owners, Partners & Directors of companies which are members of CII, FICCI & ASSOCHAM
+            </label>
+          </div><br>
+
+          <div class="emp-gov">
+            If employed in Government/ Statutory Body/ PSU, specify organization Name :
+            <input type="text" id="emp-gov" name="emp-gov">
+          </div><br>
+
+          <div class="parent-occupation">
+            Is either of your parent (in case of minor)/ spouse, a government servant?
+            <label for="yes">
+              <input type="radio" id="yes" name="answer" value="yes">Yes</label>
+            <label for="no">
+              <input type="radio" id="no" name="answer" value="no">No</label>
+          </div><br>
+
+          <div class="edu-qulification">
+            Educational Qualification :
+            <label for="7th-pass-or-less">
+              <input type="radio" id="7th-pass-or-less" name="education" value="7th-pass-or-less">7th pass or
+              less</label>
+
+            <label for="between-8th-and-9th-standard">
+              <input type="radio" id="between-8th-and-9th-standard" name="education"
+                value="between-8th-and-9th-standard">Between 8th and 9th Standard</label>
+
+            <label for="10th-pass-and-above">
+              <input type="radio" id="10th-pass-and-above" name="education" value="10th-pass-and-above">10th pass and
+              above</label>
+
+            <label for="graduate-and-above">
+              <input type="radio" id="graduate-and-above" name="education" value="graduate-and-above">Graduate and
+              above</label>
+          </div>
+
+          <div class="mark">
+            Visible Distinguishing Mark:
+            <label for="distinguishing-mark">Visible Distinguishing Mark:</label>
+            <textarea id="distinguishing-mark" name="distinguishing-mark"></textarea>
+          </div><br>
+
+          <div class="aadhar-number">
+            <label for="aadhaar-number">Aadhaar Number:</label>
+            <input type="text" id="aadhaar-number" name="aadhaar-number" maxlength="12">
+          </div><br>
+        </fieldset>
+      </div>
+      <a href="index.html" class="btn">Prev</a>
+      <a href="third.html" class="btn">Next</a>
+</body>
+</html>
